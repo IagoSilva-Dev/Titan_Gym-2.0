@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+.cadastro {
+    padding: 0px;
+    background-color: #000000;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.279);
+    max-width: 550px;
+    width: 95%;
+    padding-bottom: 25px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+form {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+label {
+    display: block;
+    margin: 15px auto 0 auto;
+    max-width: 500px;        
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+input {
+    width: 100%;
+    max-width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    color: #000000;
+}
+
+
+input:focus {
+    border: none;
+    outline: none;      
+    box-shadow: 0 0 18px red;
+}
+
+
+input#confirmar {
+    cursor: pointer;
+    width: 20px;          
+    height: 20px;        
+    accent-color: red;    
+    display: inline;        
+    float: left;            
+    margin: 13px 8px 10px calc(50% - 250px);
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    background-color: #ae0000;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 15px auto;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+
+button:hover {
+    background-color: #ff0000;
+    color: white;
+    transform: scale(1.05);
+}
